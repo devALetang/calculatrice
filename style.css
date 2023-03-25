@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: grey;
+    width: 300px;
+    height: 500px;
+}
+
+#screen {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    width: 280px;
+    height: 60px;
+    margin-top: 5%;
+    font-size: 3rem;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
